@@ -1,0 +1,67 @@
+/* ============ フォロー新着の画面 ============ */
+
+/* ニコニコロゴ */
+.LogoContainer {
+  display: none !important;
+}
+
+/* おすすめのユーザー */
+.RecommendUserContainer.TimelineContainer-recommend {
+  display: none !important;
+}
+
+/* ============ hrefの指定（リンク非表示）============ */
+
+/* フォロー */
+a[href="/my/follow?ref=pc_mypage_menu"] {
+  display: none !important;
+}
+
+/* サポート */
+a[href="/my/creator-support?ref=pc_mypage_menu"] {
+  display: none !important;
+}
+
+/* 履歴 */
+a[href="/my/history/video?ref=pc_mypage_menu"] {
+  display: none !important;
+}
+
+/* 実績・図解 */
+a[href="/my/achievement?ref=pc_mypage_menu"] {
+  display: none !important;
+}
+
+/* ============ 共通部分の指定 ============ */
+
+/* 左上ヘッダー色々 */
+.common-header-171vphh {
+  display: none !important;
+}
+
+/* 右上の丸アイコン */
+.common-header-1kbay7q {
+  display: none !important;
+}
+
+/* ============ 動画部分の指定 ============ */
+
+/*左上の横三線*/
+.simplebar-wrapper{
+  display: none !important;
+}
+
+/*おすすめ*/
+.mt_x1_5{
+  display: none !important;
+}
+.d_flex.gap_base{
+  display: none !important;
+}
+
+/*左上の三横線の右側のロゴ*/
+.w_auto.h_auto{
+  display: none !important;
+}
+
+/* ============ 検索部分の指定 ============ */
